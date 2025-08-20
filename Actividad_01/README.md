@@ -23,6 +23,7 @@ pip install -r requirements.txt
 Nota para usuarios de Ubuntu/Debian: Si tienes problemas con tkinter, instálalo con:
 bash
 sudo apt-get install python3-tk
+
 🎮 Uso
 
 Ejecución del programa
