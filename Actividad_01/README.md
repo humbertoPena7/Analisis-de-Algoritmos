@@ -1,93 +1,64 @@
-# Comparación de Algoritmos de Búsqueda
+Comparación de Algoritmos de Búsqueda en Python
 
-Una aplicación gráfica que compara el rendimiento de los algoritmos de búsqueda lineal y binaria mediante una interfaz visual construida con Tkinter y Matplotlib.
+Este proyecto implementa y compara el rendimiento de Búsqueda Lineal y Búsqueda Binaria en Python.
+A través de una interfaz gráfica desarrollada con Tkinter y Matplotlib, el usuario puede:
+	•	Generar listas de números aleatorios.
+	•	Realizar búsquedas de un valor dentro de la lista.
+	•	Comparar los tiempos de ejecución promedio de ambos algoritmos.
+	•	Visualizar gráficamente la diferencia de eficiencia según el tamaño de la lista.
 
-## 🚀 Características
+⸻
 
-- Generación de listas de números aleatorios de diferentes tamaños
-- Implementación de búsqueda lineal y binaria
-- Medición de tiempos de ejecución en milisegundos
-- Visualización gráfica comparativa del rendimiento
-- Interfaz gráfica intuitiva y fácil de usar
+📌 Características
+	•	Interfaz gráfica amigable con Tkinter.
+	•	Generación dinámica de datos ordenados aleatoriamente.
+	•	Búsqueda Lineal y Binaria implementadas manualmente.
+	•	Medición de tiempos de ejecución en milisegundos.
+	•	Gráfica comparativa del rendimiento de ambos algoritmos para distintos tamaños de lista (100, 1000, 5000, 10000 elementos).
 
-## 📋 Requisitos Previos
+⸻
 
-- Python 3.6 o superior
-- pip (gestor de paquetes de Python)
+🛠️ Tecnologías utilizadas
+	•	Python 3.x
+	•	Tkinter → Para la interfaz gráfica.
+	•	Matplotlib → Para la generación de gráficas.
+	•	NumPy → Para la generación eficiente de datos aleatorios.
 
-## 🔧 Instalación
+ ▶️ Ejecución
 
-Instalar dependencias:
-bash
-pip install -r requirements.txt
-Nota para usuarios de Ubuntu/Debian: Si tienes problemas con tkinter, instálalo con:
-bash
-sudo apt-get install python3-tk
+1. Clonar el repositorio
+   git clone https://github.com/usuario/proyecto-busquedas.git
+   cd proyecto-busquedas
 
-🎮 Uso
+2. Instalar dependencias
+   pip install -r requirements.txt
 
-Ejecución del programa
+3. Ejecutar el programa
+   python main.py
 
-bash
-python main.py
-Instrucciones de uso:
+   📊 Ejemplo de Uso
+	1.	Seleccionar el tamaño de la lista.
+	2.	Generar los datos con el botón “Generar datos”.
+	3.	Ingresar un valor a buscar.
+	4.	Ejecutar Búsqueda Lineal o Búsqueda Binaria.
+	5.	Visualizar el resultado (índice encontrado o “No encontrado”) y el tiempo promedio de búsqueda.
+	6.	Generar la gráfica comparativa para ver el rendimiento en distintos tamaños de lista.
 
-Seleccionar tamaño de lista: Elige entre 100, 1000, 5000 o 10000 elementos
-Generar datos: Haz clic en "Generar datos" para crear la lista aleatoria
-Ingresar valor: Escribe el número que deseas buscar
-Ejecutar búsquedas:
-Usa "Búsqueda Lineal" para probar el algoritmo lineal
-Usa "Búsqueda Binaria" para probar el algoritmo binario
-Ver resultados: Los resultados se mostrarán en la parte inferior
-Generar gráfica comparativa: Haz clic en el botón para ver la comparación visual
-📊 Funcionalidades
+⸻
 
-Generación de datos: Crea listas ordenadas de números aleatorios
-Búsqueda en tiempo real: Ejecuta búsquedas y mide el tiempo de ejecución
-Resultados detallados: Muestra el índice encontrado y tiempo promedio
-Gráfica comparativa: Visualiza el rendimiento de ambos algoritmos en diferentes tamaños de lista
-🏗️ Estructura del Proyecto
+📷 Capturas de Pantalla (Opcional)
 
-text
-├── main.py              # Archivo principal de la aplicación
-├── requirements.txt     # Dependencias del proyecto
-├── README.md           # Este archivo
-└── .gitignore          # Archivos a ignorar en Git
-📈 Algoritmos Implementados
+(Aquí puedes poner imágenes del programa ejecutándose para hacerlo más visual).
 
-🔍 Búsqueda Lineal
+⸻
 
-Complejidad temporal: O(n)
-Recorre cada elemento de la lista secuencialmente
-Funciona con listas no ordenadas
-🔍 Búsqueda Binaria
+📖 Conclusiones
+	•	La Búsqueda Binaria es considerablemente más eficiente que la Lineal en listas grandes.
+	•	Para listas pequeñas, la diferencia en tiempos es mínima.
+	•	La eficiencia de la Binaria escala mucho mejor conforme aumenta el tamaño de la lista.
 
-Complejidad temporal: O(log n)
-Requiere lista ordenada
-Divide repetidamente el espacio de búsqueda a la mitad
-🐛 Solución de Problemas
+⸻
 
-Error: "No module named 'tkinter'"
+👨‍💻 Autor
 
-Solución: Instalar tkinter según tu sistema operativo:
-
-Ubuntu/Debian: sudo apt-get install python3-tk
-Windows: Reinstalar Python marcando la opción "tcl/tk and IDLE"
-macOS: Usar Homebrew: brew install python-tk
-Error: "Matplotlib backend issues"
-
-Solución: El código ya fuerza el backend TkAgg, pero si persisten problemas:
-
-bash
-pip install --upgrade matplotlib
-📝 Personalización
-
-Puedes modificar los tamaños de lista disponibles editando la línea:
-
-python
-combo_tamano = ttk.Combobox(frame_inputs, values=[100, 1000, 5000, 10000], width=12)
-
-
-
-
-
+Proyecto desarrollado por [Tu Nombre]
