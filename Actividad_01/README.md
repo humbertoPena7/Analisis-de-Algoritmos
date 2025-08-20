@@ -17,11 +17,6 @@ Una aplicación gráfica que compara el rendimiento de los algoritmos de búsque
 
 ## 🔧 Instalación
 
-1. **Clonar el repositorio**:
-   ```bash
-   git clone <url-del-repositorio>
-   cd <nombre-del-repositorio>
-
 Instalar dependencias:
 bash
 pip install -r requirements.txt
