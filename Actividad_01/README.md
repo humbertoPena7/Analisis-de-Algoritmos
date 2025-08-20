@@ -89,5 +89,4 @@ python main.py
 ## 👨‍💻 Autor
 
 Proyecto desarrollado por **Humberto de Jesús Peña Dueñas**  
-📧 Contacto: humbertodejesuspenaduenas@ejemplo.com  
 🔗 Repositorio: [Analisis-de-Algoritmos](https://github.com/humbertoPena7/Analisis-de-Algoritmos.git)
